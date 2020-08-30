@@ -8,4 +8,4 @@ class Restaurant(models.Model):
     closing_time = models.TimeField()
 
     def __str__(self):
-        return self.title
+        return self.name
